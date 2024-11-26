@@ -57,7 +57,7 @@ width: 100vw ;
   font-size: 1.2rem;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:768px) and (min-width:300px) {
     .contact{
         display: none;
     }
@@ -82,7 +82,7 @@ width: 100vw ;
 
 
 .header2{
-    background-color: red;
+    background-color: white;
     border: 2px solid black;
     width: 100vw;
     height: 5rem;
@@ -99,6 +99,7 @@ width: 100vw ;
     position: relative;
    
 }
+
 
 
 .nav-links ul{
@@ -128,10 +129,13 @@ width: 100vw ;
    cursor: pointer;
    display: none;
 }
+
+
 @media screen and (max-width: 720px) and (min-width:300px) {
     
   .ham{
     display: block;
+    margin-right: 20px;
   }
 
   .cross{
@@ -139,7 +143,10 @@ width: 100vw ;
     position: absolute;
     top: 0px;
     right: 14px;
+  
   }
+
+ 
 
   .lower-section{
     flex-direction: column;
@@ -176,14 +183,131 @@ width: 100vw ;
 .container3{
   display: flex;
   flex-wrap: wrap-reverse;
+  flex-direction: row;
   overflow: hidden;
-  justify-content: space-between;
-  height: 400px auto;
+  justify-content: center;
+  gap: 50px;
+ min-height: 400px ;
+  height: 500px auto;
   width: 100vw auto;
   background-image: url("https://thirstybulls.com/wp-content/uploads/2024/02/collage-finance-banner-concept.webp");
+  border: 3px solid black;
+  padding: 10px;
 
 }
 
+
+
+
+.cont3content{
+
+  /* border: 3px solid red; */
+  height: 300px auto;
+  width: 500px;
+  /* text-align: start; */
+ display: flex;
+ flex-direction: column;
+justify-content: center;
+
+padding: 20px;
+
+}
+
+#cont3head{
+  font-size: 2rem;
+  text-align: start;
+  color: white;
+}
+
+.cont3para{
+  font-size: 1rem;
+  text-align: start;
+  color: white;
+
+}
+
+.cont3btn{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+  padding: 10px;
+  gap: 20px;
+
+}
+
+#btn1{
+width: 150px;
+background-color: red;
+height: 50px;
+}
+#btn2{
+   color: red;
+  background-color: white;
+  height: 35px;
+  }
+
+  
+  #btn3{
+    color:red;
+    background-color: white;
+    height: 35px;
+   
+    width: 150px;
+    }
+    
+
+.btn{
+  border: 2px solid white;
+  width: 100px;
+  border-radius: 30px;
+  font-size: 1rem;
+  color: white;
+}
+
+.ownerimg{
+ height: 350px;
+}
+
+
+.ownerimg img{
+height: 400px;
+width: 400px;
+
+}
+
+@media screen and (max-width: 600px) and (min-width:350px) {
+
+
+
+  
+.cont3content{
+
+  height: 400px auto;
+  width: 380px;
+  text-wrap: wrap;
+
+  padding: 30px;
+}
+
+.btn{
+  border: 2px solid white;
+  width: 80px;
+  border-radius: 30px;
+  font-size: 0.8rem;
+  color: white;
+}
+
+
+}
+
+
+
+
+/* .cont3-content{
+  display: flex;
+  flex-direction: column;
+} */
+/* 
 .sec1{
   color: white;
   height: 200px;
@@ -222,13 +346,13 @@ margin-top: 8px;
 #btn3{
   background-color: white;
   color: red;
-}
- */
+} */
 
 
 
 
- .sec2{
+
+ /* .sec2{
   
   overflow: hidden;
   height: 400px;
@@ -244,6 +368,7 @@ margin-top: 8px;
   object-fit: cover;
 } 
 
+ */
 
 
 
