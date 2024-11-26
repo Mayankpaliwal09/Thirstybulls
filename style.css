@@ -94,12 +94,17 @@ width: 100vw ;
 .lower-section{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     gap: 3rem;
     position: relative;
    
 }
 
+.logo img{
+  height: 70px;
+  width: 250px;
+  margin-left: 3rem;
+}
 
 
 .nav-links ul{
@@ -107,7 +112,7 @@ width: 100vw ;
     flex-wrap: wrap;
     list-style: none;
     gap: 1rem;
-
+    margin-right: 4rem;
    
 }
 
@@ -171,6 +176,11 @@ width: 100vw ;
      
     }
 
+    .logo img{
+      height: 70px;
+      width: 180px;
+      margin-left: 1rem;
+    }
   
 }
 
@@ -252,7 +262,7 @@ height: 50px;
     background-color: white;
     height: 35px;
    
-    width: 150px;
+    width: 165px;
     }
     
 
